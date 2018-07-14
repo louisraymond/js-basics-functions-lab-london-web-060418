@@ -34,9 +34,9 @@ function calculatesFarePrice(start, destination){
  distance=distanceTravelledInFeet(start,destination)
  
  switch (DriverResponse){
-   case (distance<400):
+   case (distance>2500):
      0
-    
+    case (distance)
  }
   
 }
