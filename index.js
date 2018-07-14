@@ -35,8 +35,7 @@ function calculatesFarePrice(start, destination){
  
    if (distance>2500){DriverResponse='cannot travel that far'};   
    else if (distance>2000){DriverResponse=25}
-      break;
-    case (distance>400):
+    else (distance>400):
       d=distance-400;
       DriverResponse=d*0.02
       break;
