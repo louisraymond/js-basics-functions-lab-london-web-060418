@@ -44,6 +44,8 @@ function calculatesFarePrice(start, destination){
       d=distance-400;
       DriverResponse=d*0.02
       break;
+    default:
+      DriverResponse
  }
   
 }
