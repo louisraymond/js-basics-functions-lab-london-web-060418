@@ -35,8 +35,8 @@ function calculatesFarePrice(start, destination){
  
  switch (DriverResponse){
    case (distance>2500):
-     
-    case (distance)
+    DriverResponse='cannot travel that far'   
+    case (distance>2000)
  }
   
 }
