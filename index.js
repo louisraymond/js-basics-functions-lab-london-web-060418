@@ -35,7 +35,7 @@ function calculatesFarePrice(start, destination){
  
  switch (DriverResponse){
    case (distance>2500):
-     0
+     
     case (distance)
  }
   
