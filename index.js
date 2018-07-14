@@ -45,7 +45,7 @@ function calculatesFarePrice(start, destination){
       DriverResponse=d*0.02
       break;
     default:
-      DriverResponse
+      DriverResponse=0
  }
   
 }
