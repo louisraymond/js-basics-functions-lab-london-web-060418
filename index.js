@@ -33,12 +33,8 @@ function calculatesFarePrice(start, destination){
  DriverResponse=0
  distance=distanceTravelledInFeet(start,destination)
  
- switch (DriverResponse){
-   case (distance>2500):
-    DriverResponse='cannot travel that far'   
-      break;
-    case (distance>2000):
-      DriverResponse=25
+   if (distance>2500){DriverResponse='cannot travel that far'};   
+   else if (distance>2000){DriverResponse=25}
       break;
     case (distance>400):
       d=distance-400;
