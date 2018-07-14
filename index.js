@@ -47,7 +47,7 @@ function calculatesFarePrice(start, destination){
     default:
       DriverResponse=0
  }
-  
+  return DriverResponse
 }
 
  describe('calculatesFarePrice(start, destination)', function() {
